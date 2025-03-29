@@ -1,7 +1,7 @@
 {
-    "name": "nyx-logger",
-    "version": "4.0.2",
-    "description": "nyx-logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.",
+    "name": "xenora-logger",
+    "version": "4.0.5",
+    "description": "xenora-logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.",
     "main": "src/index.js",
     "keywords": [
         "log",
@@ -12,9 +12,9 @@
     "author": "Zenith",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Virtual-Engine/nyx-logger.git"
+        "url": "https://github.com/Xenora-Engine/xenora-logger.git"
     },
-    "homepage": "https://github.com/Virtual-Engine",
+    "homepage": "https://github.com/Xenora-Engine",
     "files": [
         "src/*",
         "readme.md"

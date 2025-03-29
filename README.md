@@ -1,4 +1,4 @@
-# nyx-logger
+# xenora-logger
 
 Nyx Logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.
 
@@ -11,13 +11,13 @@ Nyx Logger is a simple logger for Node.js, designed to facilitate the logging of
 To install Nyx Logger, use npm (Node Package Manager). Run the following command in your terminal:
 
 Copy the code
-npm install nyx-logger
+npm install xenora-logger
 How to use
 Here's how to use Nyx Logger in your project:
 
 ```js
 // Import the module
-const log = require('nyx-logger');
+const log = require('xenora-logger');
 
 //Set file path
 log.set_file("../your/path/log.txt");
@@ -38,13 +38,12 @@ log.print("err", 'This is an error message.');
 log.print("dev", 'This is a developer message.');
 
 //Ascii Text
-log.print("asci", `                             
-    /|    / / \\    / / \\ / / 
-   //|   / /   \\  / /   \  /  
-  // |  / /     \\/ /    / /   
- //  | / /       / /    / /\\  
-//   |/ /       / /    / /  \\ 
-
+log.print("asci", `                                                                                            
+ _|      _|                                                    
+   _|  _|      _|_|    _|_|_|      _|_|    _|  _|_|    _|_|_|  
+     _|      _|_|_|_|  _|    _|  _|    _|  _|_|      _|    _|  
+   _|  _|    _|        _|    _|  _|    _|  _|        _|    _|  
+ _|      _|    _|_|_|  _|    _|    _|_|    _|          _|_|_|
 `, "cyan"); //Color is only for ascii text
 ```
 
